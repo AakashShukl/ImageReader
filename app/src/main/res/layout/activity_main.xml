@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pay4free.in.imagereader.MainActivity">
+
+<SurfaceView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/surface"
+    />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+
+        android:layout_width="match_parent"
+        android:text="No Text"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:layout_above="@+id/usetext"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:text="UseText"
+        android:id="@+id/usetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
